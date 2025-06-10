@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Stylish Image Gallery</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>My Stylish Image Gallery</h1>
+    <p>Explore beautiful moments captured in frames</p>
+  </header>
+
+  <main>
+    <div class="gallery-container">
+      <button onclick="prevImage()">❮</button>
+      <div class="image-box">
+        <img id="gallery-image" src="images/img1.jpg" alt="Gallery Image" />
+        <p id="image-description">A beautiful sunrise in the hills</p>
+      </div>
+      <button onclick="nextImage()">❯</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>Created by Shubh Patel | Internship Project 2025 | 23DCS091</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
